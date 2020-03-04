@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HeaderFooterRefreshView_Example' do
+  pod 'HeaderFooterRefreshView', :path => '../'
+
+  target 'HeaderFooterRefreshView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
