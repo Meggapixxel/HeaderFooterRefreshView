@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1F7B86D61F9C9723A3B030636AF86EE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		78010074D0FE6E6DE5A7C4045897AB96 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0496002614459E33E7D022E89038919 /* ReplaceMe.swift */; };
 		7921A41C91069739480F9158D5673AE8 /* Pods-HeaderFooterRefreshView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5268BD8EE7564A128259556FBA8BDB7 /* Pods-HeaderFooterRefreshView_Tests-dummy.m */; };
 		84DC1E9D3D8CF541B6535737CF6E92C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A1887D6D59785D1A1A8282EA60EFEF51 /* HeaderFooterRefreshView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BDD4447B545A03149EB655105EB4D1 /* HeaderFooterRefreshView-dummy.m */; };
+		BCC3C4D62411274400A4E58A /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC3C4D42411274400A4E58A /* UIScrollView+Extensions.swift */; };
+		BCC3C4D72411274400A4E58A /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC3C4D52411274400A4E58A /* RefreshView.swift */; };
 		BEBDA0E676DB631C96241D82A6C4CE51 /* Pods-HeaderFooterRefreshView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 727580D74467D9F360476F07A031CBAA /* Pods-HeaderFooterRefreshView_Example-dummy.m */; };
 		CDE9287F2A04425A8D2E190C2EF61BD3 /* HeaderFooterRefreshView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A502EB3E200EFA80C89C8F10042DB764 /* HeaderFooterRefreshView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5F43CAABF684EB104D95A7D533201B4 /* Pods-HeaderFooterRefreshView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E76256108146A062F07335D70A743CB5 /* Pods-HeaderFooterRefreshView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,12 +40,12 @@
 /* Begin PBXFileReference section */
 		022280069342A4ACD50C916CFF867D1C /* Pods-HeaderFooterRefreshView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeaderFooterRefreshView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0A0C40806AD4E106FBF28BF251D59464 /* Pods-HeaderFooterRefreshView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeaderFooterRefreshView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		179B7E28ABACDF398EB00E5F6D9CB11E /* HeaderFooterRefreshView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HeaderFooterRefreshView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		179B7E28ABACDF398EB00E5F6D9CB11E /* HeaderFooterRefreshView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HeaderFooterRefreshView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1F9A733BA9455F307FD04962713E179E /* Pods-HeaderFooterRefreshView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeaderFooterRefreshView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2596170463E4603549AECC33371F13AE /* Pods-HeaderFooterRefreshView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeaderFooterRefreshView_Tests.modulemap"; sourceTree = "<group>"; };
-		291A053D37899F22083031BA74551093 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		291A053D37899F22083031BA74551093 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3C165C4AAC34FAE03A0563B9AD50CF25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3C165C4AAC34FAE03A0563B9AD50CF25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		40BDD4447B545A03149EB655105EB4D1 /* HeaderFooterRefreshView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HeaderFooterRefreshView-dummy.m"; sourceTree = "<group>"; };
 		5C0B618D4B67F6E16DC1F947811D01C0 /* Pods-HeaderFooterRefreshView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeaderFooterRefreshView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		657DA8CDFC7BFAB3F41CE2C43BD47C8B /* Pods-HeaderFooterRefreshView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeaderFooterRefreshView_Example-Info.plist"; sourceTree = "<group>"; };
@@ -52,21 +53,22 @@
 		6DCDE95579033550349FC4045A5BEEE5 /* HeaderFooterRefreshView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HeaderFooterRefreshView.xcconfig; sourceTree = "<group>"; };
 		727580D74467D9F360476F07A031CBAA /* Pods-HeaderFooterRefreshView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeaderFooterRefreshView_Example-dummy.m"; sourceTree = "<group>"; };
 		7A5AD813BADBC093D02C6483F1482261 /* Pods-HeaderFooterRefreshView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeaderFooterRefreshView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7BB8451B6788B9FBE67F813B29B01AEC /* HeaderFooterRefreshView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HeaderFooterRefreshView.framework; path = HeaderFooterRefreshView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB8451B6788B9FBE67F813B29B01AEC /* HeaderFooterRefreshView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HeaderFooterRefreshView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C56DE1879BA7B080B72D0F31D76BEC9 /* Pods-HeaderFooterRefreshView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeaderFooterRefreshView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9057751A0B08587959B02890829984F6 /* HeaderFooterRefreshView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HeaderFooterRefreshView.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1B95F40619B50DCAC060BE3E8DF47D4 /* Pods-HeaderFooterRefreshView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeaderFooterRefreshView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A502EB3E200EFA80C89C8F10042DB764 /* HeaderFooterRefreshView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeaderFooterRefreshView-umbrella.h"; sourceTree = "<group>"; };
-		B0496002614459E33E7D022E89038919 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HeaderFooterRefreshView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		BCC3C4D42411274400A4E58A /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
+		BCC3C4D52411274400A4E58A /* RefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
 		D0EE55FA135150582507FD2091A743BB /* Pods-HeaderFooterRefreshView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeaderFooterRefreshView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D709695B162AA5AD1F4854EBB0E178F8 /* Pods_HeaderFooterRefreshView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HeaderFooterRefreshView_Example.framework; path = "Pods-HeaderFooterRefreshView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D709695B162AA5AD1F4854EBB0E178F8 /* Pods_HeaderFooterRefreshView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeaderFooterRefreshView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5C765039A59D48702846BA08A3287F /* Pods-HeaderFooterRefreshView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeaderFooterRefreshView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E5268BD8EE7564A128259556FBA8BDB7 /* Pods-HeaderFooterRefreshView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeaderFooterRefreshView_Tests-dummy.m"; sourceTree = "<group>"; };
 		E76256108146A062F07335D70A743CB5 /* Pods-HeaderFooterRefreshView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeaderFooterRefreshView_Example-umbrella.h"; sourceTree = "<group>"; };
 		EC67C51AC58FC43A9CD8AE30FE2A8D33 /* Pods-HeaderFooterRefreshView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeaderFooterRefreshView_Tests-Info.plist"; sourceTree = "<group>"; };
 		F3DE0856DB39FE2B1F79EA5B0F4FCC7D /* Pods-HeaderFooterRefreshView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeaderFooterRefreshView_Example.modulemap"; sourceTree = "<group>"; };
-		F702B2B43AFAA25D8D11FE995DDA5B76 /* Pods_HeaderFooterRefreshView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HeaderFooterRefreshView_Tests.framework; path = "Pods-HeaderFooterRefreshView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F702B2B43AFAA25D8D11FE995DDA5B76 /* Pods_HeaderFooterRefreshView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeaderFooterRefreshView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7639AD3AA2EEB811BC5EA32717B29AF /* HeaderFooterRefreshView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HeaderFooterRefreshView-Info.plist"; sourceTree = "<group>"; };
 		FA54741E36224DEADF8C8D82C59ACF6E /* HeaderFooterRefreshView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeaderFooterRefreshView-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,12 +165,21 @@
 		9367AFD62DAD27A34FA1B60CF34AB89A /* HeaderFooterRefreshView */ = {
 			isa = PBXGroup;
 			children = (
-				B0496002614459E33E7D022E89038919 /* ReplaceMe.swift */,
+				BCC3C4D32411270700A4E58A /* Source */,
 				78A71A6C03E2321A900A5665CDBE933C /* Pod */,
 				D642C7507FBA4EF5EA39DE4ECF89B0CA /* Support Files */,
 			);
 			name = HeaderFooterRefreshView;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		BCC3C4D32411270700A4E58A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BCC3C4D52411274400A4E58A /* RefreshView.swift */,
+				BCC3C4D42411274400A4E58A /* UIScrollView+Extensions.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -315,6 +326,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					7DEFE83279E9AB5D13AB41A43B2170C4 = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -365,8 +381,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCC3C4D72411274400A4E58A /* RefreshView.swift in Sources */,
 				A1887D6D59785D1A1A8282EA60EFEF51 /* HeaderFooterRefreshView-dummy.m in Sources */,
-				78010074D0FE6E6DE5A7C4045897AB96 /* ReplaceMe.swift in Sources */,
+				BCC3C4D62411274400A4E58A /* UIScrollView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +437,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HeaderFooterRefreshView_Example/Pods-HeaderFooterRefreshView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HeaderFooterRefreshView_Example/Pods-HeaderFooterRefreshView_Example.modulemap";
@@ -454,7 +471,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HeaderFooterRefreshView_Tests/Pods-HeaderFooterRefreshView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HeaderFooterRefreshView_Tests/Pods-HeaderFooterRefreshView_Tests.modulemap";
@@ -476,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6DCDE95579033550349FC4045A5BEEE5 /* HeaderFooterRefreshView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -488,7 +506,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HeaderFooterRefreshView/HeaderFooterRefreshView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HeaderFooterRefreshView/HeaderFooterRefreshView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HeaderFooterRefreshView/HeaderFooterRefreshView.modulemap";
 				PRODUCT_MODULE_NAME = HeaderFooterRefreshView;
@@ -496,7 +514,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -519,7 +538,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HeaderFooterRefreshView_Tests/Pods-HeaderFooterRefreshView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HeaderFooterRefreshView_Tests/Pods-HeaderFooterRefreshView_Tests.modulemap";
@@ -540,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6DCDE95579033550349FC4045A5BEEE5 /* HeaderFooterRefreshView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -552,7 +572,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HeaderFooterRefreshView/HeaderFooterRefreshView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HeaderFooterRefreshView/HeaderFooterRefreshView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HeaderFooterRefreshView/HeaderFooterRefreshView.modulemap";
 				PRODUCT_MODULE_NAME = HeaderFooterRefreshView;
@@ -560,7 +580,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -616,13 +636,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -679,7 +698,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -708,7 +727,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HeaderFooterRefreshView_Example/Pods-HeaderFooterRefreshView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HeaderFooterRefreshView_Example/Pods-HeaderFooterRefreshView_Example.modulemap";
