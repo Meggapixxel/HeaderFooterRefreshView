@@ -1,0 +1,16 @@
+PODS:
+  - HeaderFooterRefreshView (0.1.0)
+
+DEPENDENCIES:
+  - HeaderFooterRefreshView (from `../`)
+
+EXTERNAL SOURCES:
+  HeaderFooterRefreshView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HeaderFooterRefreshView: d5c47944a0830da5f955ec023056fd27c04de859
+
+PODFILE CHECKSUM: 127a6da795058552a9777dcd095a03ae9af7e96f
+
+COCOAPODS: 1.8.4

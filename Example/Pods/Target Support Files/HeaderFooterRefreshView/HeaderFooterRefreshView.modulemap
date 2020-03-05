@@ -1,0 +1,6 @@
+framework module HeaderFooterRefreshView {
+  umbrella header "HeaderFooterRefreshView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_HeaderFooterRefreshView_Example {
+  umbrella header "Pods-HeaderFooterRefreshView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
