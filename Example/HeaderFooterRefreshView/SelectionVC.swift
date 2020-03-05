@@ -107,7 +107,7 @@ class SelectionVC: UITableViewController {
 private extension SelectionVC {
     
     func headerControl(_ scrollView: UIScrollView) -> RefreshView {
-        scrollView.header.setControl()
+        scrollView.header.setManualControl()
     }
     
     func headerAutoControl(_ scrollView: UIScrollView) -> RefreshView {
@@ -115,7 +115,7 @@ private extension SelectionVC {
     }
     
     func footerControl(_ scrollView: UIScrollView) -> RefreshView {
-        scrollView.footer.setControl()
+        scrollView.footer.setManualControl()
     }
     
     func footerAutoControl(_ scrollView: UIScrollView) -> RefreshView {
@@ -142,10 +142,3 @@ private extension SelectionVC {
     }
     
 }
-
-
-
-
-
-
-

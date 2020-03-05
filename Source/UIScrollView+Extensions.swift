@@ -1,17 +1,16 @@
 import UIKit
 
-
 public protocol P_ScrollViewHeaderFooter: NSObject {
  
-    func setControl(height: CGFloat) -> RefreshView
+    func setManualControl(height: CGFloat) -> RefreshView
     
     func setAutoControl(height: CGFloat) -> RefreshView
     
 }
 extension P_ScrollViewHeaderFooter {
     
-    public func setControl(height: CGFloat = 44) -> RefreshView {
-        setControl(height: height)
+    public func setManualControl(height: CGFloat = 44) -> RefreshView {
+        setManualControl(height: height)
     }
     
     public func setAutoControl(height: CGFloat = 44) -> RefreshView {
@@ -29,8 +28,8 @@ class ScrollViewHeader<Base: UIScrollView>: NSObject, P_ScrollViewHeaderFooter {
         self.base = base
     }
     
-    func setControl(height: CGFloat = 44) -> RefreshView {
-        let view = HeaderView(height: height)
+    func setManualControl(height: CGFloat = 44) -> RefreshView {
+        let view = ManualHeaderView(height: height)
         base.insertSubview(view, at: 0)
         return view
     }
@@ -51,8 +50,8 @@ class ScrollViewFooter<Base: UIScrollView>: NSObject, P_ScrollViewHeaderFooter {
         self.base = base
     }
     
-    func setControl(height: CGFloat = 44) -> RefreshView {
-        let view = FooterView(height: height)
+    func setManualControl(height: CGFloat = 44) -> RefreshView {
+        let view = ManualFooterView(height: height)
         base.insertSubview(view, at: 0)
         return view
     }
