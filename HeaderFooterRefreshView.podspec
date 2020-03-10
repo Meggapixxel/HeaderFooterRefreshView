@@ -8,37 +8,20 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HeaderFooterRefreshView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of HeaderFooterRefreshView.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '1.0.0'
+  s.summary          = 'HeaderFooterRefreshView is the library to config custom pull-to-refresh for header and footer of any subclass of UIScrollView'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+HeaderFooterRefreshView is the library to config custom pull-to-refresh for header and footer of any subclass of UIScrollView in two modes: manual and auto.
+Manual behaviour similar to original UIRefreshControl.
+Auto behaviour triggers selector when UIScrollView reaches minimum offset for header and maximum offset for footer.
                        DESC
-
   s.homepage         = 'https://github.com/Meggapixxel/HeaderFooterRefreshView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Meggapixxel' => 'zhydenkodeveloper@gmail.com' }
   s.source           = { :git => 'https://github.com/Meggapixxel/HeaderFooterRefreshView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.platform = :ios, '10.0'
   s.swift_version = '5.0'
-  # s.ios.deployment_target = '10.0'
-
-  s.source_files = 'HeaderFooterRefreshView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'HeaderFooterRefreshView' => ['HeaderFooterRefreshView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.source_files = 'Source/**/*'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

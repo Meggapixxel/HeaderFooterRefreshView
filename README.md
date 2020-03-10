@@ -5,11 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/HeaderFooterRefreshView.svg?style=flat)](https://cocoapods.org/pods/HeaderFooterRefreshView)
 [![Platform](https://img.shields.io/cocoapods/p/HeaderFooterRefreshView.svg?style=flat)](https://cocoapods.org/pods/HeaderFooterRefreshView)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
+
+- iOS 10.0+
+- Swift 5.0+
 
 ## Installation
 
@@ -18,6 +17,33 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'HeaderFooterRefreshView'
+```
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+Header (Manual)
+```swift
+let headerView = scrollView.header.setManualControl() // Default is 44
+headerView.addTarget(self, action: #selector(headerRefresh), for: .valueChanged)
+```
+
+Header (Auto)
+```swift
+let headerView = scrollView.header.setAutoControl(height: 60)
+headerView.addTarget(self, action: #selector(headerRefresh), for: .valueChanged)
+```
+
+Footer (Manual)
+```swift
+let footerView = scrollView.footer.setManualControl() // Default is 44
+headerView.addTarget(self, action: #selector(headerRefresh), for: .valueChanged)
+```
+
+Footer (Auto)
+```swift
+let footerView = scrollView.footer.setAutoControl(height: 60)
+headerView.addTarget(self, action: #selector(headerRefresh), for: .valueChanged)
 ```
 
 ## Author
